@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>8班</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="title">杭实外108班</a>
+        <div class="menu-icon" onclick="toggleNav()">☰</div>
+        <nav>
+            <a href="#">AI</a>
+            <a href="#">ChatGPT</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Welcome to Class 8</h1>
+        <p>This is a sample website by NoobStudio.</p>
+        <p class="warn">The best way to browse this website is using computer.</p>
+    </div>
+    <script>
+        function toggleNav() {
+            var nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
